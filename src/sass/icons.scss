@@ -1,0 +1,35 @@
+@mixin nth-icon($formula, $color) {
+  &:nth-child(#{$formula}) {
+    &:before {
+      background: $color;
+    }
+    &:hover {
+      color: $color;
+    }
+  }
+}
+
+.coin-icon {
+  display: block;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+  margin-bottom: 1.5rem;
+
+  &:before {
+    content: "\00a0";
+    display: inline-block;
+    width: 0.5rem;
+    height: 100%;
+    margin-right: .5rem;
+  }
+
+  span {
+    @extend .mx-1 ;
+  }
+
+  @include nth-icon('4n+2', $secondary)
+  @include nth-icon('4n+3', $green)
+  @include nth-icon('4n+0', $yellow)
+  @include nth-icon('4n+1', $blue)
+}
