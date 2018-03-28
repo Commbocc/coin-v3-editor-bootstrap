@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="fr-view">
+  <div class="pageStyles">
 
     <div class="bg-primary text-white">
 
