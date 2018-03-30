@@ -19,4 +19,10 @@
   //
   @import "buttons";
   @import "icons";
+
+  // global
+  hr {
+    height: 1px;
+    background: $dark;
+  }
 }
