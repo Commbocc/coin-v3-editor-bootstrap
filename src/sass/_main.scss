@@ -15,12 +15,13 @@
   @import "node_modules/bootstrap/scss/buttons";
   @import "node_modules/bootstrap/scss/alert";
   @import "node_modules/bootstrap/scss/card";
+  @import "node_modules/bootstrap/scss/tables";
 
   //
   @import "buttons";
   @import "icons";
 
-  // global
+  // scope
   hr {
     height: 1px;
     background: $dark;
