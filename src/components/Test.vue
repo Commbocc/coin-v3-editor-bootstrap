@@ -2,6 +2,23 @@
   <div class="">
     <h1>Bootstrap Demo</h1>
 
+    <h2>Forms</h2>
+
+    <form class="d-sm-flex py-5 px-md-5">
+      <label class="sr-only m-1" for="first-name">First Name</label>
+      <input type="text" class="form-control form-control-sm m-1" id="first-name" placeholder="First Name">
+
+      <label class="sr-only m-1" for="last-name">Last Name</label>
+      <input type="text" class="form-control form-control-sm m-1" id="last-name" placeholder="Last Name">
+
+      <button type="submit" class="btn btn-sm btn-secondary m-1">
+        <span class="fas fa-search"></span>
+        Search
+      </button>
+
+      <button type="submit" class="btn btn-sm btn-info m-1">CENTREX Self Serve</button>
+    </form>
+
     <h2>Tables</h2>
 
     <code>class="table table-sm table-striped table-bordered"</code>
