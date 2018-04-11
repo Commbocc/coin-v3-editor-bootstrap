@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## CDN
+
+https://commbocc.github.io/coin-v3-styles/dist/static/css/app.css
+
 ## Build Setup
 
 ``` bash
