@@ -1,11 +1,14 @@
 a.btn {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none !important;
+  &:hover {
+    color: #fff !important;
+  }
 }
 
 .btn-secondary, .btn-warning, .btn-danger {
-  color: #fff;
+  color: #fff !important;
   &:hover {
-    color: #fff;
+    color: #fff !important;
   }
 }
