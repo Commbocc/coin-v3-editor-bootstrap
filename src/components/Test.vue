@@ -2,6 +2,16 @@
   <div class="">
     <h1>Bootstrap Demo</h1>
 
+    <h2>Media</h2>
+
+    <div class="media">
+      <img class="mr-3" src="http://placehold.it/100x100&text=1" alt="Generic placeholder image">
+      <div class="media-body">
+        <h5 class="mt-0">Media heading</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </div>
+
     <h2>Forms</h2>
 
     <form class="d-sm-flex py-5 px-md-5">
